@@ -17,7 +17,7 @@ Final recommendation: Recommend adopting FORECAST.ETS, or another seasonally-awa
 
 Dashboard 
 
-![Dashboard](DemandForecasting&InventoryAnalysisDashboardScreenshot.png)
+![Dashboard](DemandForecastingAndInventoryAnalysisDashboardScreenshot.png)
 
 The dashboard above includes: actual vs. forecasted sales by item, a year-over-year seasonality chart, a summary table of demand/CV/safety stock/reorder point across all 5 items, and a moving average vs. FORECAST.ETS accuracy comparison.
 
@@ -25,4 +25,3 @@ Files
 
 [Full Excel File](DemandForecastAnalysisProjectFINAL.xlsx) - full working file with raw data, item-level forecasts, safety stock/reorder point calculations, and the dashboard
 
-![Dashboard](DemandForecasting&InventoryAnalysisDashboardScreenshot.png)
