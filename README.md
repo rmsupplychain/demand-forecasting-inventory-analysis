@@ -13,6 +13,7 @@ Key Findings & Recommendations
 2. Forecast accuracy finding: The 3-month moving average produced a MAPE of 17-18% across all 5 items. Reasonably consistent, but only moderately accurate. This is likely because a simple moving average smooths out seasonal spikes rather than anticipating them, meaning the model systematically under forecasts in June/July and over forecasts in the months right after.
 3. Variability finding: Demand variability (CV) ranged from 21-23% across all items, placing them in the moderate-to-high volatility range. The consistency of this range across all 5 items suggests the underlying seasonal demand pattern is the main driver of unpredictability.
 4. Model comparison finding: Tested FORECAST.ETS (exponential smoothing) against the moving average on a held-out 3-month period for Item 1 (Oct-Dec 2017). FORECAST.ETS reduced MAPE from 19.91% to 9.78%. A 51% improvement, confirming that the primary driver of forecast inaccuracy was unaccounted-for seasonality.
+
 Final recommendation: Recommend adopting FORECAST.ETS, or another seasonally-aware forecasting method, over the current moving average approach, particularly for items with strong seasonal demand patterns like June/July. In the meantime, safety stock levels should be reviewed and increased ahead of Q2/Q3 specifically, rather than applying a flat buffer year-round.
 
 Dashboard 
