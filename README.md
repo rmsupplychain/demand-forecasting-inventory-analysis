@@ -8,7 +8,7 @@ Tools & Methods
 Excel: PivotTables, 3-month moving average, FORECAST.ETS (exponential smoothing), safety stock & reorder point calculations, conditional formatting, dashboard design
 Techniques: seasonality analysis, coefficient of variation (CV), MAPE (Mean Absolute Percentage Error), holdout testing
 
-Key Findings & Recommendations
+Key Findings
 1. Seasonality finding: All 5 items exhibited a consistent seasonal demand spike in June and July across the full 5-year period, indicating a genuine recurring pattern rather than random fluctuation likely tied to a broader seasonal driver affecting the entire product category rather than any single item.
 2. Forecast accuracy finding: The 3-month moving average produced a MAPE of 17-18% across all 5 items. Reasonably consistent, but only moderately accurate. This is likely because a simple moving average smooths out seasonal spikes rather than anticipating them, meaning the model systematically under forecasts in June/July and over forecasts in the months right after.
 3. Variability finding: Demand variability (CV) ranged from 21-23% across all items, placing them in the moderate-to-high volatility range. The consistency of this range across all 5 items suggests the underlying seasonal demand pattern is the main driver of unpredictability.
